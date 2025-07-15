@@ -10,7 +10,7 @@ A multithreaded client/server password manager written in C, offering secure and
 
 - *Language*: C
 - *Platform*: Linux / UNIX
-- *Concurrency*: POSIX threads (pthread)
+- *Concurrency*: POSIX threads (`pthread`)
 - *Networking*: TCP/IP (using socket, bind, listen, accept, connect)
 - *Database*: SQLite3
 - *Communication*: Plain-text protocol over TCP
