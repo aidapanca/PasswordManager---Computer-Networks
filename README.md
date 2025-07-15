@@ -1,4 +1,4 @@
-# PasswordManager---Computer-Networks
+# PasswordManager - Computer-Networks
 Computer Networks: Multithreaded TCP Password Manager in C with SQLite backend (Linux)
 
 # 🔐 Password Manager – Secure Credential Storage over TCP
