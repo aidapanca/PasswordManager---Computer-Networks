@@ -5,7 +5,6 @@ Computer Networks: Multithreaded TCP Password Manager in C with SQLite bac
 
 A multithreaded client/server password manager written in C, offering secure and structured storage for user credentials. The system provides category-based organization, authentication with master passwords, recovery via security questions, and real-time interaction via TCP/IP sockets.
 
----
 
 ## Tech Stack
 
@@ -16,7 +15,6 @@ A multithreaded client/server password manager written in C, offering secure and
 - *Database*: SQLite3
 - *Communication*: Plain-text protocol over TCP
 
----
 
 ## Core Features
 
@@ -38,7 +36,7 @@ A multithreaded client/server password manager written in C, offering secure and
 -  *Multithreaded Server*
   - Each client is handled in a separate thread for concurrent access
 
----
+
 
 ## 🧠 Architecture
 
@@ -50,4 +48,3 @@ The application follows a *modular client-server architecture* with the followin
 - *Command dispatcher pattern* – Input parsing is centralized, enabling simple extension and consistent request handling.
 - *Recovery-first design* – Account security is enhanced with a fallback mechanism using security questions.
 
----
