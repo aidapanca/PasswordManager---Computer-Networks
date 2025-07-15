@@ -6,23 +6,6 @@ Computer Networks: Multithreaded TCP Password Manager in C with SQLite bac
 A client/server password manager written in C that uses TCP/IP for communication, **pthread** for concurrency and SQLite 3 for secure data persistence.  
 Multiple users can register, organise their passwords by category and safely recover their account through security questions. :contentReference[oaicite:0]{index=0}
 
----
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Architecture](#architecture)
-5. [Build & Run](#build--run)
-6. [Supported Commands](#supported-commands)
-7. [Database Schema](#database-schema)
-8. [Project Layout](#project-layout)
-9. [Roadmap](#roadmap)
-10. [Licence](#licence)
-11. [Author & Acknowledgements](#author--acknowledgements)
-
----
-
 ## Overview
 
 The server listens on **port 2500**, accepts TCP connections and spawns a dedicated **thread** for each client.  
