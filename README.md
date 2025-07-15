@@ -9,7 +9,7 @@ Multiple users can register, organise their passwords by category and safely rec
 ## Overview
 
 The server listens on **port 2500**, accepts TCP connections and spawns a dedicated **thread** for each client.  
-The client provides a minimal CLI where users send textual commands and receive formatted replies. :contentReference[oaicite:1]{index=1}
+The client provides a minimal CLI where users send textual commands and receive formatted replies. 
 
 ---
 
